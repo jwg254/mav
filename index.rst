@@ -36,6 +36,8 @@ These are files that you'll edit to make your MAV do neat things.
    :maxdepth: 2
 
    src/mav_control.py
+   src/cv_video.py
+   src/camera_calib.py
 
 * :download:`src/mav_control.ui` -- Defines the GUI layout.
   Use the Qt Designer to modify this.
