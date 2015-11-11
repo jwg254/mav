@@ -108,9 +108,6 @@ templates_path = ['_templates']
 # `source_suffix <http://sphinx-doc.org/config.html#confval-source_suffix>`_:
 # The suffix of source filenames.
 source_suffix = '.rst'
-# **CodeChat note:** Add the suffix of all CodeToRest-supported source files so
-# that Sphinx can process these as well.
-source_suffix = CodeToRestSphinx.add_source_suffix(source_suffix)
 
 # **CodeChat note:** A dict of {glob_, lexer_alias}, which uses lexer_alias
 # (e.g. a lexer's `short name <http://pygments.org/docs/lexers/>`_) to analyze
